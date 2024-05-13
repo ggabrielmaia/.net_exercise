@@ -2,6 +2,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using TaskControlApi.Data;
 
+
+// Este arquivo configura o host do aplicativo web, adiciona serviços ao container DI e configura o pipeline de processamento de solicitações HTTP.
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Adicionar o serviço DbContext usando PostgreSQL

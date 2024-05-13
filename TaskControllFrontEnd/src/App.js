@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import TaskList from './components/TaskList';
 import TaskForm from './components/TaskForm';
 
+// Este é o componente raiz do aplicativo React, configurando o roteador e as rotas principais. Inclui a barra de navegação e define rotas para as páginas de listagem de tarefas e formulário de tarefas.
+
 function App() {
     return (
         <Router>

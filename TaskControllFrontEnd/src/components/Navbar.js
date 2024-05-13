@@ -2,6 +2,8 @@ import React from 'react';
 import { AppBar, Toolbar, Typography, Button } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 
+// Este componente fornece a barra de navegação superior para o aplicativo, incluindo links para a página inicial e para adicionar novas tarefas.
+
 function Navbar() {
     return (
         <AppBar position="static">

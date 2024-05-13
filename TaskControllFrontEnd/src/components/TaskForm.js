@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
+// Este componente fornece um formulário para adicionar ou editar tarefas. Inclui campos para título, SLA e um campo de upload de arquivo. O formulário envia esses dados para o servidor usando uma chamada API.
+
 function TaskForm({ match }) {
     const [titulo, setTitulo] = useState('');
     const [sla, setSla] = useState('');

@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
+// Este componente é responsável por buscar e exibir uma lista de todas as tarefas. Ele faz uma chamada API para o servidor para recuperar as tarefas e as exibe em uma lista.
+
 function TaskList() {
     const [tasks, setTasks] = useState([]);
 

@@ -1,3 +1,6 @@
+// Este arquivo define a estrutura da entidade Tarefa que será usada pelo Entity Framework para mapear para a tabela de tarefas no banco de dados.
+
+
 namespace TaskControlApi.Models
 {
     public class Tarefa
