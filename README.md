@@ -13,6 +13,6 @@ Este projeto é uma aplicação de gerenciamento de tarefas que permite aos usu�
 
 ## Tecnologias Utilizadas
 
-- **Frontend**: React, Material-UI
-- **Backend**: .NET 5, Entity Framework Core
+- **Frontend**: React, Material-UI, JavaScript
+- **Backend**: C#,.NET 5, Entity Framework Core
 - **Database**: PostgreSQL
